@@ -9,7 +9,17 @@
 # constructor accordingly.
 
 class Yodel
+  def segment
+    
+  end
 
+  def count
+    
+  end
+
+  def articulate
+    
+  end
 end
 
 

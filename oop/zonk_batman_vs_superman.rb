@@ -14,7 +14,19 @@
 # if a Superhero is attacked and their hitpoints are less than 1, they are no longer alive
 # Superhero needs a grab_tool method, that sets the has_special_tool attribute to true.
 
+class Superhero
+  def initialize
+    
+  end
+  
+  def alive
+    @alive = true
+  end
 
+  def has_special_tool
+    @has_special_tool = false
+  end
+end  
 # Driver code - don't touch anything below this line.
 puts "TESTING the Superhero class..."
 puts
